@@ -116,14 +116,16 @@ public class AbstractList<E> implements iStack<E>, iList<E>{
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
- /*   @Override
-    public E peek() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+	@Override
+	public E peek() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
-    @Override
-    public boolean empty() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-*/
+	@Override
+	public boolean empty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }

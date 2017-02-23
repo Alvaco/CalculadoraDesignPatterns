@@ -8,7 +8,7 @@ public interface iStack<E>{
 	public void push(E algo);
 	
 	/**
-	 * @return un elemento del final de una lsita
+	 * @return un elemento del final de una lista
 	 */
 	public E pop();
 	
